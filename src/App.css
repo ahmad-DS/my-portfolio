@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+/* h1,h2,h3,h4{
+  color:white;
+} */
+/* Contact Css */
+
+.contact-form > textarea{
+  resize:inherit;
+  width: 100%;
+  margin-top: 20px;
+  /* opacity: 0.5; */
+  border-radius: 10px;
+  padding: 1rem;
+}
+.contact-form  .Submit-btn{
+  width: 100%;
+  padding: 0.5rem ;
+  border-radius: 35px;
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  /* opacity: 0.6; */
+  margin-left: 20px;
+}.container-contact{
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+  background-position: right bottom, left top;
+  background-position: center;
+  background-size: 100% 100%;
+  
+}
+.Big_Div{
+display: flex;
+justify-content: space-between;
+/* border: 1px solid rgb(61, 255, 2); */
+
+margin-top: 50px;
+}
+.icon_div{
+  width: auto;
+  /* border: 1px solid rgb(255, 0, 0); */
+  padding: 5rem 1rem 5rem 1rem;
+  margin-top: 20px;
+}
+.icon_div > div{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 15px;
+  /* border: 1px solid rgb(255, 0, 0); */
+  
+}
+.icon_div > div > i{
+  color:rgb(255, 255, 255);
+  padding: 1rem;
+text-decoration:underline;
+
+ 
+}
+.form_Div{
+  display: flex;
+  justify-content: center;
+  width:25%;
+  margin-top: 10px;
+  padding: 1rem 1rem 15rem 1rem;
+  /* border: 1px solid rgb(162, 255, 0); */
+  line-height: 70px;
+  outline: none;
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 42px;
+}
+.contact-form > input{
+  width: 100%;
+  padding: 1rem;
+  margin-top: 20px;
+ /* opacity: 0.5; */
+ border-radius: 10px;
+ /* text-align: center; */
+
+}

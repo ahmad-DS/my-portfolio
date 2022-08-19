@@ -1,0 +1,52 @@
+/* .bg {
+	width: 100%;
+	opacity: 0.8;
+	margin-top: 100px;
+	border: 2px solid red;
+} */
+
+.home {
+	border: 2px solid rgb(0, 255, 72);
+	/* position: relative; */
+	height: 700px;
+	background-repeat: no-repeat, repeat;
+	width: 100%;
+	background-position: right bottom, left top;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+ .intro {
+/* border: 2px solid red; */
+text-align: start;
+padding: 2rem;
+color: white;
+
+
+}
+
+.intro h1 {
+	font-size: 40px;
+} 
+
+
+/* ....ABOUT..... */
+.info {
+	display: flex;
+	/* justify-content: space-between; */
+
+}
+
+.address-left{
+	text-align: left;
+	/* border:1px red solid; */
+	width: 150px;
+}
+.address-right{
+color:grey;
+}
+
+/* .......PROJECTS....... */
+.project-img{
+	width:100%
+}
